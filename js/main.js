@@ -164,10 +164,10 @@ jQuery(function($) {'use strict';
 		$.ajax({
 			url: $(this).attr('action'),
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando mensaje ...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success">Gracias por ponerse en contacto con nosotros. Tan pronto como sea posible nos pondremos en contacto con usted.</p>').delay(3000).fadeOut();
 		});
 	});
 

@@ -1,13 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
 /*
-Template Name: Color
-Version: 1.0
-Author: 
-Author URL: 
 */
-/*************************
-*******Typography******
-**************************/
 body {
   padding-top: 60px;
   background: #fff;
@@ -69,7 +62,7 @@ hr {
   line-height: 38px;
   text-align: center;
   font-weight: 400;
-  color: #262f32;
+  color: #235FC7;/*#262f32*/
   text-transform: uppercase;
 
 }
@@ -80,7 +73,7 @@ hr {
   line-height: 28px;
   text-align: center;
   font-weight: 300;
-  color: #8d8d8d;
+  color: #0B1BD0; /*#8d8d8d*/
 }
 
 
@@ -90,12 +83,12 @@ hr {
   border-radius: 0px;
 }
 .btn.btn-primary {
-  background: #72C05B;
-  border-color: #72C05B;
+  background: #00CFE0;    /*#72C05B*/
+  border-color: #00CFE0; /*#72C05B*/
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #72C05B;
+  background: #00CFE0; /*72C05B*/
 }
 .column-title {
   margin-top: 0;
@@ -110,7 +103,7 @@ hr {
   bottom: -1px;
   left: 0;
   width: 40%;
-  border-bottom: 1px solid #72C05B;
+  border-bottom: 1px solid #3CA2F7;/*#72C05B*/
 }
 ul.nostyle {
   list-style: none;
@@ -118,7 +111,7 @@ ul.nostyle {
   margin-bottom: 20px;
 }
 ul.nostyle i {
-  color: #72C05B;
+  color: #3CA2F7;/*#72C05B*/
 }
 .scaleIn {
   -webkit-animation-name: scaleIn;
@@ -175,7 +168,7 @@ ul.nostyle i {
 
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: #0A035B;
+    background: #1165A2;/*#0A035B*/
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
@@ -189,7 +182,7 @@ ul.nostyle i {
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
-    background-color: #0A035B;
+    background-color: #1165A2;/*#0A035B*/
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -204,9 +197,10 @@ ul.nostyle i {
     transition: border-color 400ms;
   }
   #main-menu.navbar-default .dropdown-menu > li > a {
-    border-top: 1px solid #404455;
+    border-top: 1px solid #1165A2;/*#404455*/
     padding: 15px 0;
     color: #eeeeee;
+	font-size:20px;
   }
   #main-menu.navbar-default .dropdown-menu > li:first-child > a {
     border-top: 0;
@@ -306,7 +300,7 @@ ul.nostyle i {
   margin-top: 40px;
 }
 #cta2 {
-  background: #242a33;
+  background: #12396E;/*#242a33*/
   background-size: cover;
   color: #fff;
   padding: 70px 0;
@@ -544,7 +538,7 @@ ul.nostyle i {
 *******Testimonial******
 **************************/
 #testimonial {
-  background: #333333;
+  background: #112E6F;/*#333333*/
   padding: 100px 0;
   color: #fff;
   text-align: center;
