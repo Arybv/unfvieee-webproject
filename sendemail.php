@@ -1,7 +1,7 @@
 <?php  
   
   //Email information
-  $admin_email = "your@email.com";
+  $admin_email = "contact@ieeeunfv.org";
   $name = $_REQUEST['name'];
   $email = $_REQUEST['email'];
   $subject = $_REQUEST['subject'];
